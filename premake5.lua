@@ -27,6 +27,9 @@ solution "OpenMetaverse"
     files {
       path.join("%{prj.location}", "**.cs")
     }
+    excludes {
+      path.join("%{prj.location}", "obj", "**")
+    }
     links {
       "System",
       "System.Drawing",
@@ -40,6 +43,9 @@ solution "OpenMetaverse"
     namespace("OpenMetaverse")
     files {
       path.join("%{prj.location}", "**.cs")
+    }
+    excludes {
+      path.join("%{prj.location}", "obj", "**")
     }
     links {
       "System",
@@ -55,6 +61,9 @@ solution "OpenMetaverse"
     files {
       path.join("%{prj.location}", "**.cs")
     }
+    excludes {
+      path.join("%{prj.location}", "obj", "**")
+    }
     links {
       "System",
       "System.Xml",
@@ -69,6 +78,9 @@ solution "OpenMetaverse"
     namespace("OpenMetaverse")
     files {
       path.join("%{prj.location}", "**.cs")
+    }
+    excludes {
+      path.join("%{prj.location}", "obj", "**")
     }
     links {
       "System",
@@ -91,6 +103,9 @@ solution "OpenMetaverse"
     files {
       path.join("%{prj.location}", "**.cs")
     }
+    excludes {
+      path.join("%{prj.location}", "obj", "**")
+    }
     links {
       "System",
       "System.Xml",
@@ -107,6 +122,9 @@ solution "OpenMetaverse"
     location("OpenMetaverse.Tests")
     files {
       path.join("%{prj.location}", "**.cs")
+    }
+    excludes {
+      path.join("%{prj.location}", "obj", "**")
     }
     links {
       "System",
@@ -126,6 +144,7 @@ solution "OpenMetaverse"
     }
     excludes {
       path.join("%{prj.location}", "GridProxyMain.cs"),
+      path.join("%{prj.location}", "obj", "**")
     }
     links {
       "System",
@@ -143,6 +162,9 @@ solution "OpenMetaverse"
     files {
       path.join("%{prj.location}", "**.cs")
     }
+    excludes {
+      path.join("%{prj.location}", "obj", "**")
+    }
     links {
       "System",
       "System.Drawing",
@@ -155,6 +177,9 @@ solution "OpenMetaverse"
     location("OpenMetaverse.Rendering.Meshmerizer")
     files {
       path.join("%{prj.location}", "**.cs")
+    }
+    excludes {
+      path.join("%{prj.location}", "obj", "**")
     }
     links {
       "System",
@@ -169,6 +194,9 @@ solution "OpenMetaverse"
     location("OpenMetaverse.GUI")
     files {
       path.join("%{prj.location}", "**.cs")
+    }
+    excludes {
+      path.join("%{prj.location}", "obj", "**")
     }
     links {
       "System",
@@ -192,6 +220,9 @@ solution "OpenMetaverse"
       path.join("%{prj.location}", "**.settings"),
       path.join("%{prj.location}", "**.ico")
     }
+    excludes {
+      path.join("%{prj.location}", "obj", "**")
+    }
     links {
       "System",
       "System.Xml",
@@ -213,6 +244,9 @@ solution "OpenMetaverse"
       path.join("%{prj.location}", "**.settings"),
       path.join("%{prj.location}", "**.ico")
     }
+    excludes {
+      path.join("%{prj.location}", "obj", "**")
+    }
     links {
       "System",
       "System.Data",
@@ -228,6 +262,9 @@ solution "OpenMetaverse"
     files {
       path.join("%{prj.location}", "**.cs")
     }
+    excludes {
+      path.join("%{prj.location}", "obj", "**")
+    }
     links {
       "System",
       "System.Drawing",
@@ -242,6 +279,9 @@ solution "OpenMetaverse"
       path.join("%{prj.location}", "mapgenerator.cs"),
       path.join("%{prj.location}", "ProtocolManager.cs")
     }
+    excludes {
+      path.join("%{prj.location}", "obj", "**")
+    }
     links {
       "System",
     }
@@ -251,6 +291,9 @@ solution "OpenMetaverse"
     location(path.join("Programs", "examples", "IRCGateway"))
     files {
       path.join("%{prj.location}", "**.cs")
+    }
+    excludes {
+      path.join("%{prj.location}", "obj", "**")
     }
     links {
       "System",
@@ -266,6 +309,9 @@ solution "OpenMetaverse"
       path.join("%{prj.location}", "**.resx"),
       path.join("%{prj.location}", "**.settings"),
       path.join("%{prj.location}", "**.ico")
+    }
+    excludes {
+      path.join("%{prj.location}", "obj", "**")
     }
     links {
       "System",
@@ -287,6 +333,9 @@ solution "OpenMetaverse"
       path.join("%{prj.location}", "**.settings"),
       path.join("%{prj.location}", "**.ico")
     }
+    excludes {
+      path.join("%{prj.location}", "obj", "**")
+    }
     links {
       "System",
       "System.Drawing",
@@ -304,6 +353,9 @@ solution "OpenMetaverse"
       path.join("%{prj.location}", "**.resx"),
       path.join("%{prj.location}", "**.settings"),
       path.join("%{prj.location}", "**.ico")
+    }
+    excludes {
+      path.join("%{prj.location}", "obj", "**")
     }
     links {
       "System",
@@ -329,6 +381,9 @@ solution "OpenMetaverse"
       path.join("%{prj.location}", "**.settings"),
       path.join("%{prj.location}", "**.ico")
     }
+    excludes {
+      path.join("%{prj.location}", "obj", "**")
+    }
     links {
       "System",
       "System.Data",
@@ -343,6 +398,9 @@ solution "OpenMetaverse"
     location(path.join("Programs", "GridProxy"))
     files {
       path.join("%{prj.location}", "GridProxyMain.cs")
+    }
+    excludes {
+      path.join("%{prj.location}", "obj", "**")
     }
     links {
       "System",
@@ -359,6 +417,9 @@ solution "OpenMetaverse"
       path.join("%{prj.location}", "**.resx"),
       path.join("%{prj.location}", "**.settings"),
       path.join("%{prj.location}", "**.ico")
+    }
+    excludes {
+      path.join("%{prj.location}", "obj", "**")
     }
     links {
       "System",
@@ -387,6 +448,9 @@ solution "OpenMetaverse"
       path.join("%{prj.location}", "**.resx"),
       path.join("%{prj.location}", "**.png"),
       path.join("%{prj.location}", "**.ico")
+    }
+    excludes {
+      path.join("%{prj.location}", "obj", "**")
     }
     links {
       "System",
@@ -417,6 +481,9 @@ solution "OpenMetaverse"
     files {
       path.join("%{prj.location}", "VisualParamGenerator.cs")
     }
+    excludes {
+      path.join("%{prj.location}", "obj", "**")
+    }
     links {
       "System",
       "System.Xml",
@@ -429,6 +496,9 @@ solution "OpenMetaverse"
     location(path.join("Programs", "VoiceTest"))
     files {
       path.join("%{prj.location}", "**.cs")
+    }
+    excludes {
+      path.join("%{prj.location}", "obj", "**")
     }
     links {
       "System",
@@ -448,6 +518,9 @@ solution "OpenMetaverse"
       path.join("%{prj.location}", "**.settings"),
       path.join("%{prj.location}", "**.ico")
     }
+    excludes {
+      path.join("%{prj.location}", "obj", "**")
+    }
     links {
       "System",
       "System.Data",
@@ -465,6 +538,9 @@ solution "OpenMetaverse"
       path.join("%{prj.location}", "**.resx"),
       path.join("%{prj.location}", "**.settings"),
       path.join("%{prj.location}", "**.ico")
+    }
+    excludes {
+      path.join("%{prj.location}", "obj", "**")
     }
     links {
       "System",
@@ -484,6 +560,9 @@ solution "OpenMetaverse"
       path.join("%{prj.location}", "**.settings"),
       path.join("%{prj.location}", "**.ico")
     }
+    excludes {
+      path.join("%{prj.location}", "obj", "**")
+    }
     links {
       "System",
       "System.Data",
@@ -499,6 +578,9 @@ solution "OpenMetaverse"
     files {
       path.join("%{prj.location}", "**.cs")
     }
+    excludes {
+      path.join("%{prj.location}", "obj", "**")
+    }
     links {
       "System",
       "OpenMetaverse",
@@ -510,6 +592,9 @@ solution "OpenMetaverse"
     location(path.join("Programs", "examples", "TestClient"))
     files {
       path.join("%{prj.location}", "**.cs")
+    }
+    excludes {
+      path.join("%{prj.location}", "obj", "**")
     }
     links {
       "System",
